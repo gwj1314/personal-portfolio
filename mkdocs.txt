@@ -1,0 +1,17 @@
+mkdocs文档管理
+
+安装：
+pip install mkdocs -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install mkdocs-material  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+
+运行：
+mkdocs serve
+
+生成：
+mkdocs build
+
+部署：
+创建gh-pages分支，并切换到gh-pages分支。
+执行mkdocs build指令，将HTML静态网页推送到远端gh-pages分支。
+mkdocs gh-deploy
+
