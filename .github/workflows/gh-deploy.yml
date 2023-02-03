@@ -11,9 +11,7 @@ deploy:
     - uses: actions/setup-python@v2
       with:
         python-version: 3.x
-    - uses: actions/cache@v2
-      with:
-        key: ${{ github.ref }}
-        path: .cache
     - run: pip install mkdocs-material
+    - run: pip install mkdocs-exclude
+    - run: pip install mkdocs-roamlinks-plugin
     - run: mkdocs gh-deploy --force
