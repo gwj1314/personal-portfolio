@@ -3,11 +3,12 @@ site_author: gwj12345
 site_url: https://gwj12345.github.io/personal-portfolio
 repo_name: 'personal-portfolio'
 repo_url: 'https://github.com/gwj12345/personal-portfolio'
+favicon: travel.ico
 
 theme:
     name: material
     highlightjs: false
-    # favicon: favicon.ico
+    favicon: travel.ico
     language: 'zh'
     feature:
         tabs: false
