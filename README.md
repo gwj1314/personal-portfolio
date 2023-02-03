@@ -17,7 +17,7 @@
 
 访问链接：http://gwj12345.github.io/personal-portfolio/
 
-关于更新：**不定期更新到网站，以本仓库的md文档原文为准**。
+关于更新：**采用Github Action自动部署到网站，如遇Actions出错，以本仓库的md文档原文为准。**。
 
 ![](docs/show.png)
 
